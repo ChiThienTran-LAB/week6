@@ -8,6 +8,8 @@ public class Hello {
         Scanner scanner_b = new Scanner(System.in);
         System.out.println("Nhập b: ");
         int b = scanner_b.nextInt();
+        scanner_a.close();
+        scanner_b.close();
         if (a>b){
            System.out.println("a>b");
         }if (a==b) {
